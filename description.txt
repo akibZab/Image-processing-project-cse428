@@ -1,0 +1,33 @@
+milestone 1
+Next Thursday, you need to complete  Milestone 1  and give a short presentation (each group 10 minutes) answering the following questions:
+
+What is the size of your dataset? Is there a separate batch for train, test, and validation, or do you need to do it manually? What are the different classes in your dataset?
+
+What is the distribution of your dataset, i.e., the number of samples per class? Show it using a plot. Is the distribution balanced or unbalanced?
+
+If a dataset is unbalanced, what kind of issues we might face? What are the available techniques to tackle these issues [Google and answer]?
+
+Which technique are you going to use to tackle your unbalanced dataset and why? NOTE: you DO NOT need use any such technique for Milestone 1, but you have to use it for the next milestones.
+
+Use the logistic regression shown in the last class to classify. Report the following results separately for train and test - accuracy, sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), the confusion matrix, and the F1 score. How can we interpret these results?
+
+Train a five layer (one input layer, one output layer, three hidden layers) neural network using keras with some random number of neurons in the hidden layers on your dataset and use the test dataset to evaluate the model's performance (accuracy, sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), the confusion matrix, and the F1 score). 
+Use the logistic activation functions for the hidden layers, and softmax for the output layer. Compare the results with that of the Logistic Regression model.
+
+Milestone 2
+Create a presentation for this milestone as well. Produce aggregate metrics (mentioned in milestone 1, point 6) with the mentioned CNN models to Train and Test your dataset :
+
+ResNet-34 or ResNet-50 (from Scratch)
+Inception Net (from Scratch)
+
+🔸🔸Also make a custom model with your own idea (any structure, activation are allowed) to test your data.🔸🔸
+
+Your experiments and presentation need to include the following:
+
+Types of Augmentations used.
+The performance metric formulae.
+The structures of the models. (Either in image or written format)
+Train and test curve (history) in the same plot for each experiment.
+Some misclassified test images of the models. (showing their actual labels)
+A decision of which model performs better.
+Milestone-1 slides at the end with the mentioned suggestions for improvement.
